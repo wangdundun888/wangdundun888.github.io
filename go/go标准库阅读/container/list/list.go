@@ -168,3 +168,54 @@ func main() {
 			气球对应内存,绳子对应指针.
 	*/
 }
+
+/*
+//关于空接口interface{}以及类型断言的一个坑,用在list上
+package main
+import (
+	"container/list"
+	"fmt"
+)
+type TreeNode struct {
+	     Val int
+	     Left *TreeNode
+	     Right *TreeNode
+
+}
+func countNodes(root *TreeNode) int{
+	if root == nil {
+		return 0
+	}
+	count := 1
+	stack := list.New()
+	stack.Init()
+	stack.PushFront(root)
+	for stack.Len() != 0{
+		e := stack.Front()
+		node := e.Value.(*TreeNode)
+		//附上类型断言
+		//如果直接node := e.Value是不可以的,因为e.Value是一个空接口类型
+		//无论集装箱装的是茶叶还是烟草，集装箱依然是金属做的，不会因为所装物的类型改变而改变。
+		//空接口类型就是一个集装箱,而类型断言就是把箱子对应的货物拿出来
+		if  node.Left != nil {
+			count++
+			stack.PushFront(node.Left)
+		}
+		if node.Right != nil {
+			count++
+			stack.PushFront(node.Right)
+		}
+		stack.Remove(e)
+	}
+	return count
+}
+
+func main() {
+	root := &TreeNode{
+		Val: 5,
+		Left: &TreeNode{5,nil,nil},
+		Right: &TreeNode{5,nil,nil},
+	}
+	fmt.Println(countNodes(root))
+}
+*/
