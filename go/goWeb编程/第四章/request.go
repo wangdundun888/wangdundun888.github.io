@@ -96,17 +96,34 @@ type Request struct{
 		ctx context.Context
 }*/
 
+func getHeader(writer http.ResponseWriter, request *http.Request) {
+	header := request.Header
+	//获取request的头部
+	//header可以当作一个[string][]string使用
+	for key, value := range header {
+		fmt.Println(key, ": ", value)
+	}
+	fmt.Fprint(writer, header)
+}
+func getBody(writer http.ResponseWriter, request *http.Request) {
+	length := request.ContentLength
+	body := make([]byte, length)
+	//用Body的read方法,把Body读入一个byte数组
+	//长度就是request.ContentLength
+	request.Body.Read(body)
+	fmt.Println(string(body))
+	fmt.Fprint(writer, string(body))
+}
+func index(writer http.ResponseWriter, request *http.Request) {
+	fmt.Fprint(writer, "hello go")
+}
+
 func main() {
 	serve := http.Server{
 		Addr: "localhost:9090",
 	}
-	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
-		header := request.Header
-		fmt.Println(request.Body)
-		for key, value := range header {
-			fmt.Println(key, ": ", value)
-		}
-		fmt.Fprint(writer, "hello go web")
-	})
+	http.HandleFunc("/", index)
+	http.HandleFunc("/header", getHeader)
+	http.HandleFunc("/body", getBody)
 	serve.ListenAndServe()
 }
