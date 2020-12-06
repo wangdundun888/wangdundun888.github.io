@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8" content="text/html">
+    <title>go</title>
+</head>
+<body>
+    <!--
+        html表单的内容类型决定了POST请求在发送键值对时使用何种格式
+        内容类型由表单的entype属性决定
+            值为application/x-www-form-urlencoded时,表单数据会编码成
+            一个连续的"长查询字符串",在这个字符串中,不同的键值对使用&符号连接,
+            键值对中的键值使用=号连接
+            值为multipart/form-data时,表单数据会被转化为一条MIME报文,一般在上传文件时使用
+    -->
+    <!--
+    <form action="http://localhost:9090/postForm?name=ZhangSan" enctype="application/x-www-form-urlencoded"
+        method="post">
+        <input type="text" name="name" />
+        <input type="submit"/>
+    </form>
+    -->
+    <form action="http://localhost:9090/file" enctype="multipart/form-data"
+          method="post">
+        <input type="file" name="fileName" />
+        <input type="submit"/>
+    </form>
+</body>
+</html>
