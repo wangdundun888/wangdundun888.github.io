@@ -45,7 +45,7 @@ func main() {
 	*/
 	//使用切片创建切片
 	newSlice := s[1:3]
-	fmt.Println(newSlice)
+	fmt.Println(newSlice, 8<<20/1024/1024)
 	//使用newSlice := s[i:j],假如s的cap是k,那么newSlice的长度是j-i,容量是k-i
 	//newSlice := s[i:j:k], 长度是j-i,容量是k-i,注意不要超过界限,且k-i不能大于cap(s)-i
 	//使用切片创建切片,两个切片会共享内存,修改切片,都会感知到,可以设置新切片的len=cap,利用append函数的机制,让新切片与原切片分离
