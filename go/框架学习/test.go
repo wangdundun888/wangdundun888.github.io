@@ -1,12 +1,17 @@
 package main
 
 import (
+	"flag"
 	"fmt"
-	"strconv"
+	"net/http"
 )
 
 func main() {
-	var i int64 = 65535111112223123
-	str := strconv.FormatInt(i, 16)
-	fmt.Println(str)
+	flag.Parse()
+	args := flag.Args()
+	url := args[0]
+	resp, _ := http.Get(url)
+	defer resp.Body.Close()
+
+	fmt.Println(resp.Body)
 }

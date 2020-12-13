@@ -119,28 +119,28 @@ func index(writer http.ResponseWriter, request *http.Request) {
 	fmt.Fprint(writer, "hello go")
 }
 
-func getForm(writer http.ResponseWriter, request *http.Request){
+func getForm(writer http.ResponseWriter, request *http.Request) {
 	//获取Form字段前,要先调用ParseForm进行语法分析
 	request.ParseForm()
 	//Form字段是一个map[string][]string映射
 	//键是字符串,值是字符串切片
-	fmt.Println("form字段: ",request.Form)
+	fmt.Println("form字段: ", request.Form)
 	//你好 [Zhangsan] 访问name属性值方式之一
-	fmt.Fprintf(writer,"你好 %s\n",request.Form["name"])
+	fmt.Fprintf(writer, "你好 %s\n", request.Form["name"])
 	//你好 Zhangsan	方式之二 该方法调用时会自动调用ParseForm或ParseMultipartForm方法
-	fmt.Fprintf(writer,"你好 %s\n",request.FormValue("name"))
+	fmt.Fprintf(writer, "你好 %s\n", request.FormValue("name"))
 }
 
-func getPostForm(writer http.ResponseWriter, request *http.Request){
+func getPostForm(writer http.ResponseWriter, request *http.Request) {
 	//获得PostForm字段需先调用ParseForm进行语法解析
 	request.ParseForm()
 	//PostForm和Form字段都是一个映射
 	//不同的是,PostForm字段不包含URL键值对,只包含键的表单值
 	//且PostForm只支持application/x-www-form-urlencoded编码
-	fmt.Println("PostForm字段: ",request.PostForm)
+	fmt.Println("PostForm字段: ", request.PostForm)
 }
 
-func getMultipartForm(writer http.ResponseWriter, request *http.Request){
+func getMultipartForm(writer http.ResponseWriter, request *http.Request) {
 	//获取MultipartForm字段前要先调用此方法
 	//参数是maxMemory是指从表单里获取maxMemory字节的数据
 	request.ParseMultipartForm(1024)
@@ -150,10 +150,10 @@ func getMultipartForm(writer http.ResponseWriter, request *http.Request){
 	//第二个映射是记录用户上传的文件
 	//该字段用来获取multipart/form-data编码的表单数据
 	//使用multipart/form-data编码时,表单数据存储到MultipartForm字段
-	fmt.Println("MultipartForm字段: ",request.MultipartForm)
+	fmt.Println("MultipartForm字段: ", request.MultipartForm)
 }
 
-func uploadFile(write http.ResponseWriter,request *http.Request){
+func uploadFile(write http.ResponseWriter, request *http.Request) {
 	request.ParseMultipartForm(1024)
 	/*
 		根据键值,即  <input type="file" name="fileName" /> name属性 从
@@ -163,11 +163,11 @@ func uploadFile(write http.ResponseWriter,request *http.Request){
 		提前,无须调用ParseMultipartForm方法,同时第二个参数是返回fileHeader
 	*/
 	fileHeader := request.MultipartForm.File["fileName"][0]
-	file,err := fileHeader.Open()
+	file, err := fileHeader.Open()
 	if err == nil {
-		data,err := ioutil.ReadAll(file)
+		data, err := ioutil.ReadAll(file)
 		if err == nil {
-			fmt.Fprintf(write,string(data))
+			fmt.Fprintf(write, string(data))
 		}
 	}
 }
@@ -180,11 +180,11 @@ func main() {
 	http.HandleFunc("/header", getHeader)
 	http.HandleFunc("/body", getBody)
 
-	http.HandleFunc("/form",getForm)
-	http.HandleFunc("/postForm",getPostForm)
-	http.HandleFunc("/multipartForm",getMultipartForm)
+	http.HandleFunc("/form", getForm)
+	http.HandleFunc("/postForm", getPostForm)
+	http.HandleFunc("/multipartForm", getMultipartForm)
 
-	http.HandleFunc("/file",uploadFile)
+	http.HandleFunc("/file", uploadFile)
 
 	serve.ListenAndServe()
 }

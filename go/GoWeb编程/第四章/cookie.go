@@ -48,31 +48,31 @@ type Cookie struct {
 	Unpared []string
 }*/
 
-func setCookis(writer http.ResponseWriter, request *http.Request){
+func setCookis(writer http.ResponseWriter, request *http.Request) {
 	c1 := http.Cookie{
 		//发现Name中的字符串不可以有空格,否则写入失败,不知道为什么
 		//貌似是因为cookie支持的原因,尽量使用下划线而不使用其他符号
-		Name: "first_cookie",
-		Value: "GO cookie",
+		Name:     "first_cookie",
+		Value:    "GO cookie",
 		HttpOnly: true,
 	}
 	c2 := http.Cookie{
-		Name: "second_cookie",
-		Value: "GO cookie",
+		Name:     "second_cookie",
+		Value:    "GO cookie",
 		HttpOnly: true,
 	}
 	c3 := http.Cookie{
-		Name: "third_cookie",
-		Value: "GO cookie",
+		Name:     "third_cookie",
+		Value:    "GO cookie",
 		HttpOnly: true,
 	}
 	//设置cookie的三种方法
-	writer.Header().Set("Set-Cookie",c1.String())
-	writer.Header().Add("Set-Cookie",c2.String())
-	http.SetCookie(writer,&c3)
+	writer.Header().Set("Set-Cookie", c1.String())
+	writer.Header().Add("Set-Cookie", c2.String())
+	http.SetCookie(writer, &c3)
 }
 
-func getCookis(writer http.ResponseWriter, request *http.Request){
+func getCookis(writer http.ResponseWriter, request *http.Request) {
 	//从请求首部获得cookie
 	//该方法返回一个切片
 	//如果想要获得单独的键值对格式的cookie,需要自行进行语法分
@@ -80,24 +80,23 @@ func getCookis(writer http.ResponseWriter, request *http.Request){
 	c := request.Header["Cookie"]
 
 	//获取单个cookie
-	c1 ,err := request.Cookie("first_cookie")
+	c1, err := request.Cookie("first_cookie")
 	if err == nil {
-		fmt.Println(c1)//获得一个first_cookie="GO cookie"字符串
+		fmt.Println(c1) //获得一个first_cookie="GO cookie"字符串
 	}
 	//该方法和request.Header["Cookie"]获取的完全相同
 	cc := request.Cookies()
 	fmt.Println(cc)
-	fmt.Fprintln(writer,c)
-	fmt.Fprintln(writer,cc)
+	fmt.Fprintln(writer, c)
+	fmt.Fprintln(writer, cc)
 }
-
 
 func main() {
 	serve := http.Server{
-		Addr: "localhost:9090",
+		Addr:    "localhost:9090",
 		Handler: nil,
 	}
-	http.HandleFunc("/setcookie",setCookis)
-	http.HandleFunc("/getcookie",getCookis)
+	http.HandleFunc("/setcookie", setCookis)
+	http.HandleFunc("/getcookie", getCookis)
 	serve.ListenAndServe()
 }

@@ -59,23 +59,20 @@ func writeExample(writer http.ResponseWriter, request *http.Request) {
 	writer.Write([]byte(str))
 }
 
-func writeHeaderExample(write http.ResponseWriter,request *http.Request){
+func writeHeaderExample(write http.ResponseWriter, request *http.Request) {
 	//WriteHeader设置响应的返回状态码
 	//该方法调用后,就不能对响应的首部做任何的写入操作
 	//用户调用Write之前如果没有调用该方法,则默认使用200OK作为响应的状态码
 	write.WriteHeader(501)
-	fmt.Fprintln(write,"No such service try next door")
+	fmt.Fprintln(write, "No such service try next door")
 }
 
-func headerExample(write http.ResponseWriter,request *http.Request){
+func headerExample(write http.ResponseWriter, request *http.Request) {
 	//Header方法返回一个由首部组成的映射
-	write.Header().Set("Location","http://www.bing.com")
+	write.Header().Set("Location", "http://www.bing.com")
 	//WriteHeader写入之后就不能对头部进行写入,所以需要先写入Location
 	write.WriteHeader(302)
 }
-
-
-
 
 func main() {
 	/*
@@ -85,12 +82,12 @@ func main() {
 			包含有Write WriteHeader Header三个方法
 	*/
 	serve := http.Server{
-		Addr:"localhost:9090",
+		Addr:    "localhost:9090",
 		Handler: nil,
 	}
-	http.HandleFunc("/",index)
-	http.HandleFunc("/write",writeExample)
-	http.HandleFunc("/writeheader",writeHeaderExample)
-	http.HandleFunc("/header",headerExample)
+	http.HandleFunc("/", index)
+	http.HandleFunc("/write", writeExample)
+	http.HandleFunc("/writeheader", writeHeaderExample)
+	http.HandleFunc("/header", headerExample)
 	serve.ListenAndServe()
 }
