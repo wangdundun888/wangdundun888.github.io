@@ -24,17 +24,17 @@
         for i:=0;i<MAXGR;i++{
             go func(num int){
                 defer wg.Done();
-                defer fmt.Printf("发送线程%d,已经退出\n",num)
-                fmt.Printf("%d 已发送\n",num)
+                defer fmt.Printf("发送线程%d,已经退出\size",num)
+                fmt.Printf("%d 已发送\size",num)
                 test <- num
             }(i)
         }
         //创建一个接收
         go func(){
             defer wg.Done()
-            defer fmt.Printf("B:接收线程已经退出\n")
+            defer fmt.Printf("B:接收线程已经退出\size")
             for i:= range test{
-                fmt.Printf("%d 已经收到\n",i)
+                fmt.Printf("%d 已经收到\size",i)
             }
         }()
         wg.Wait()
@@ -67,9 +67,9 @@
         for i:=0;i<MAXGR;i++{
             go func(num int){
                 defer wg.Done()
-                defer fmt.Printf("接收线程已经退出 BBBBB %d \n",num)
+                defer fmt.Printf("接收线程已经退出 BBBBB %d \size",num)
                 for j:= range test {
-                    fmt.Printf("%d 已经收到\n", j)
+                    fmt.Printf("%d 已经收到\size", j)
                 }
             }(i)
         }
@@ -79,7 +79,7 @@
             defer wg.Done();
             for i:=0;i<MAXGR;i++{
                 test <- i
-                fmt.Printf("数组 %d 已经发送AAAAAAAAAAAAA\n",i)
+                fmt.Printf("数组 %d 已经发送AAAAAAAAAAAAA\size",i)
             }
             close(test)
         }()
@@ -112,8 +112,8 @@
                 for i:=0;i<MAXGR;i++{
                     go func(num int){
                         defer wg.Done();
-                        defer fmt.Printf("发送线程%d,已经退出\n",num)
-                        fmt.Printf("%d 已发送\n",num)
+                        defer fmt.Printf("发送线程%d,已经退出\size",num)
+                        fmt.Printf("%d 已发送\size",num)
                         test <- num
                         info <- 1 //通知监控线程
                     }(i)
@@ -135,9 +135,9 @@
                 //创建一个接收
                 go func(){
                     defer wg.Done()
-                    defer fmt.Printf("B:接收线程已经退出\n")
+                    defer fmt.Printf("B:接收线程已经退出\size")
                     for i:= range test{
-                        fmt.Printf("%d 已经收到\n",i)
+                        fmt.Printf("%d 已经收到\size",i)
                     }
                 }()
                 wg.Wait()
