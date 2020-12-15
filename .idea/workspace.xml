@@ -24,14 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd98e95-ca26-495c-8757-6eb333501426" name="Default Changelist" comment="更新map示例代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/go/Go语言圣经/函数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/基础数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/go/Go语言圣经/基础数据类型.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/go/Go语言圣经/接口.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/关于channel的一些思考.md" beforeDir="false" afterPath="$PROJECT_DIR$/go/Go语言实战读书笔记/关于channel的一些思考.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/go标准库阅读/container/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/go标准库API阅读/container/list/list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/go标准库阅读/net/ip.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/go标准库API阅读/net/ip.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/go标准库阅读/strings/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/go标准库API阅读/strings/strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法/leetcode/20201203每日一题计算质数.md" beforeDir="false" afterPath="$PROJECT_DIR$/算法/leetcode/20201203每日一题计算质数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/算法/leetcode/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/算法/leetcode/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/计算机网络/TCPIP详解卷1/第四章地址解析协议/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/TCPIP详解卷1/第四章地址解析协议/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +169,8 @@
     <MESSAGE value="添加笔记" />
     <MESSAGE value="更新文件夹名字" />
     <MESSAGE value="阅读&lt;TCP/IP详解&gt;第一章" />
-    <option name="LAST_COMMIT_MESSAGE" value="阅读&lt;TCP/IP详解&gt;第一章" />
+    <MESSAGE value="提交笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交笔记" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
