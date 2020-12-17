@@ -16,13 +16,13 @@ type Hello struct{}
 //在go语言中,一个处理器就是一个拥有ServeHTTP方法的接口
 //第一个参数是http.ResponseWriter接口,第二个是http.Request指针
 func (h *Hello) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "hello world I'm go")
+	fmt.Fprint(w, "hello world I'm Go")
 }
 
 type Hi struct{}
 
 func (h *Hi) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "hi i'm go!!!")
+	fmt.Fprint(w, "hi i'm Go!!!")
 }
 
 func helloAgain(w http.ResponseWriter, r *http.Request) { //处理器函数

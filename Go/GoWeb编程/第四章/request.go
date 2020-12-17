@@ -116,7 +116,7 @@ func getBody(writer http.ResponseWriter, request *http.Request) {
 	fmt.Fprint(writer, string(body))
 }
 func index(writer http.ResponseWriter, request *http.Request) {
-	fmt.Fprint(writer, "hello go")
+	fmt.Fprint(writer, "hello Go")
 }
 
 func getForm(writer http.ResponseWriter, request *http.Request) {

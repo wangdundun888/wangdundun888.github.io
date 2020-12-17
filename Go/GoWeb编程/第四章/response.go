@@ -45,7 +45,7 @@ import (
 }*/
 
 func index(writer http.ResponseWriter, request *http.Request) {
-	fmt.Fprint(writer, "hello go")
+	fmt.Fprint(writer, "hello Go")
 }
 
 func writeExample(writer http.ResponseWriter, request *http.Request) {

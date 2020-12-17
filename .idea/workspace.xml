@@ -24,8 +24,55 @@
   <component name="ChangeListManager">
     <list default="true" id="7dd98e95-ca26-495c-8757-6eb333501426" name="Default Changelist" comment="更新map示例代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第三章/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第三章/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第六章/csv.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第六章/csv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第六章/writeAndReadFile.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第六章/writeAndReadFile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第四章/cookie.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第四章/cookie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第四章/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第四章/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第四章/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第四章/request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/GoWeb编程/第四章/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/GoWeb编程/第四章/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/Goroutines和Channels.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/Goroutines和Channels.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/rm.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/rm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/函数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/包和工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/包和工具.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/基于共享变量的开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/基于共享变量的开发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/基础数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/基础数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/复合数据类型.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/复合数据类型.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/引言.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/引言.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/接口.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/接口.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言圣经/方法.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言圣经/方法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/关于channel的一些思考.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/关于channel的一些思考.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/示例代码/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/示例代码/array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/示例代码/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/示例代码/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/示例代码/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/示例代码/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/第四章数组切片和映射.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/第四章数组切片和映射.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言实战读书笔记/配置gin框架下载包遇到的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言实战读书笔记/配置gin框架下载包遇到的问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/Go语言编程/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go语言编程/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go与数据库/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go与数据库/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go与数据库/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go与数据库/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go与数据库/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go与数据库/mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go标准库API阅读/container/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go标准库API阅读/container/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go标准库API阅读/math/rand/rand.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go标准库API阅读/math/rand/rand.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go标准库API阅读/net/ip.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go标准库API阅读/net/ip.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go标准库API阅读/os/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go标准库API阅读/os/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go标准库API阅读/strings/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go标准库API阅读/strings/strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/go标准库API阅读/time/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/Go标准库API阅读/time/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/其他杂项/rand.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/其他杂项/rand.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/gin.log" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/gin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/groupingRouters.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/groupingRouters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/parameters.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/parameters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/parameters.html" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/parameters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/quickStart.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/quickStart.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/uploadFiles.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/uploadFiles.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/uploadFils.html" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/uploadFils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/uploadfile" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/uploadfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/gin/writeLog.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/gin/writeLog.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/框架学习/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go/框架学习/test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/算法/leetcode/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/算法/leetcode/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/计算机网络/TCPIP详解卷1/第四章地址解析协议/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机网络/TCPIP详解卷1/第四章地址解析协议/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +113,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -76,7 +124,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/go/框架学习/gin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/算法/算法导论/第六章堆排序" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
@@ -84,55 +132,68 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git_repository\wangdundun888.github.io\go\框架学习\gin" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git_repository\wangdundun888.github.io\算法\算法导论" />
+      <recent name="D:\git_repository\wangdundun888.github.io\算法\random" />
+      <recent name="D:\git_repository\wangdundun888.github.io\算法" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test.go">
-    <configuration name="go build quickSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build heap.go">
+    <configuration name="go build 第六章堆排序/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wangdundun888.github.io" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/算法/算法导论/第七章快速排序/quickSort.go" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/算法/算法导论/第六章堆排序" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go与数据库" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="wangdundun888.github.io" />
+      <working_directory value="$PROJECT_DIR$/go/go与数据库" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/go/go与数据库/mysql.go" />
+      <package value="go与数据库" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build rand.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build heap.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wangdundun888.github.io" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/其他杂项/rand.go" />
+      <filePath value="$PROJECT_DIR$/算法/算法导论/第六章堆排序/heap.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wangdundun888.github.io" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/go标准库阅读/os/test.go" />
-      <directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/算法/算法导论/第六章堆排序/heap.go" />
+      <directory value="$PROJECT_DIR$/算法/算法导论/第六章堆排序" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go test 第六章堆排序" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="wangdundun888.github.io" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go/go标准库阅读/time/test.go" />
-      <directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/算法/算法导论/第六章堆排序" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/算法/算法导论/第六章堆排序" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="wangdundun888.github.io" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/算法/leetcode/test.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build go与数据库" />
+      <item itemvalue="Go Build.go build " />
+      <item itemvalue="Go Build.go build 第六章堆排序/" />
+      <item itemvalue="Go Test.go test 第六章堆排序" />
+      <item itemvalue="Go Build.go build heap.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build quickSort.go" />
-        <item itemvalue="Go Build.go build test.go (2)" />
-        <item itemvalue="Go Build.go build test.go (1)" />
-        <item itemvalue="Go Build.go build rand.go" />
+        <item itemvalue="Go Build.go build heap.go" />
+        <item itemvalue="Go Build.go build " />
+        <item itemvalue="Go Test.go test 第六章堆排序" />
+        <item itemvalue="Go Build.go build 第六章堆排序/" />
+        <item itemvalue="Go Build.go build go与数据库" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +231,10 @@
     <MESSAGE value="更新文件夹名字" />
     <MESSAGE value="阅读&lt;TCP/IP详解&gt;第一章" />
     <MESSAGE value="提交笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交笔记" />
+    <MESSAGE value="理解MAC和ip" />
+    <MESSAGE value="学习堆" />
+    <MESSAGE value="简单理解优先队列,并实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单理解优先队列,并实现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -179,7 +243,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/go/GoWeb编程/第三章/main.go</url>
+          <url>file://$PROJECT_DIR$/Go/GoWeb编程/第三章/main.go</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

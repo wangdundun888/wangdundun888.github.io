@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-	var i int
-	fmt.Scanf("%d", &i)
-	fmt.Println(i)
+	s := -2 % 2
+	fmt.Println(s)
 }

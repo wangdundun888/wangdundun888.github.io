@@ -1,5 +1,5 @@
 /*
-	string类型作为go的基本类型并没有方法,所以阅读strings包里的strings.go
+	string类型作为go的基本类型并没有方法,所以阅读strings包里的strings.Go
 	源码:https://github.com/golang/go/blob/master/src/strings/strings.go
 */
 package main
@@ -24,7 +24,7 @@ func main() {
 	*/
 
 	//EqualFold,判断两个utf-8编码字符串是否相同,忽视大小写
-	fmt.Println(strings.EqualFold("go", "Go"))
+	fmt.Println(strings.EqualFold("Go", "Go"))
 
 	//func HasPrefix(s, prefix string) bool
 	//HasPrefix,判断s中是否包含前缀prefix
