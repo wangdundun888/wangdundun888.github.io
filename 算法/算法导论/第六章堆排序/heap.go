@@ -67,7 +67,8 @@ func maxHeapify(A []int, i int) {
 //创建堆
 //调用maxHeapify
 //从len(A)/2开始,都是叶子结点,本身就是一个最大堆,符合maxHeapify的调用条件
-//时间复杂度为O(n)
+//调用maxHeapify为O(lgn),调用n次,应该是O(nlg),但不是渐近紧确的
+//通过对树的结点和高度进行计算,得出时间复杂度为O(n)
 func buildHeap(A []int) {
 	heapsize = len(A) - 1
 	for i := len(A) / 2; i >= 1; i-- {
