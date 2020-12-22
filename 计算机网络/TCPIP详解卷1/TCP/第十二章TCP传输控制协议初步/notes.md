@@ -9,25 +9,36 @@ Transmission  Control Protocol 传输控制协议
 
 *TCP头部*
 
-|0                  15|16                    31|
----|---
-源端口(16位)|目的端口(16位)
-序列号(32位)|
-确认号(32位)|
-头部长度4位|保留(0)4位
 <table>
+    <tr align="center" >
+        <td colspan="16">源端口(16位)</td>
+        <td colspan="16">目的端口(16位)</td>
+    </tr>
     <tr align="center">
-        <td>第0-15位</td>
-        <td>第16-31位</td>
+        <td colspan="32" >序列号(32位)</td>
+    </tr>
+    <tr align="center">
+        <td colspan="32" >确认号(32位)</td>
     </tr>
     <tr>
-        <td>源端口(16位)</td>
-        <td>目的端口(16位)</td>
+        <td colspan="4">头部长度(4位)</td>
+        <td colspan="4">保留(0)(4位)</td>
+        <td colspan="1">CWR(1位)</td>
+        <td colspan="1">ECE(1位)</td>
+        <td colspan="1">URG(1位)</td>
+        <td colspan="1">ACK(1位)</td>
+        <td colspan="1">PSH(1位)</td>
+        <td colspan="1">RST(1位)</td>
+        <td colspan="1">SYN(1位)</td>
+        <td colspan="1">FIN(1位)</td>
+        <td>窗口大小(16位)</td>
+    </tr>
+    <tr align="center" >
+        <td colspan="16">TCP校验和(16位)</td>
+        <td colspan="16">紧急指针(16位)</td>
     </tr>
     <tr align="center">
-        <td colspan="20" >序列号(32位)</td>
-    </tr>
-    <tr align="center">
-        <td colspan="2" >确认号(32位)</td>
+        <td colspan="32" >选项(可变量)</td>
     </tr>
 </table>
+
