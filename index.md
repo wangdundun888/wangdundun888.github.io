@@ -1,46 +1,9 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/wangdundun888/wangdundun888.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+#### 这是王敦敦个人学习记录页面，如果有错欢迎指教！！！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Go语言](https://github.com/wangdundun888/wangdundun888.github.io/tree/main/Go)
 
-### Markdown
+- [算法](https://github.com/wangdundun888/wangdundun888.github.io/tree/main/%E7%AE%97%E6%B3%95)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
- 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-#### 标题
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-[这是一个测试链接](https://github.com/wangdundun888/wangdundun888.github.io/blob/main/%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6.md)
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wangdundun888/wangdundun888.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or
-
-
-[contact support](https://github.com/contact) and we’ll help you sort it out.
+- [计算机网络](https://github.com/wangdundun888/wangdundun888.github.io/tree/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C)
