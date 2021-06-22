@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	user "os/user"
+	"os/user"
 	"strings"
 )
 
@@ -24,4 +24,9 @@ func main() {
 
 	user1, _ := user.Current()
 	fmt.Println(user1.HomeDir)
+
+	//获得进程id,获得进程的父进程id
+	pid := os.Getpid()
+	ppid := os.Getppid()
+	fmt.Println(pid, "  ", ppid)
 }

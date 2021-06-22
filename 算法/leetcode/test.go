@@ -1,10 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	s := -2 % 2
-	fmt.Println(s)
+	x := 1
+	fmt.Println(x)
 }
